@@ -1,0 +1,22 @@
+#controls {
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+}
+
+#controls input{
+    line-height: 24px; 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+}
+
+button[data-create] {
+    
+}
