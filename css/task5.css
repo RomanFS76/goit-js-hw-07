@@ -1,0 +1,17 @@
+body {
+    border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    min-height: 280px;
+}
+
+.widget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-color {
+    display: block;
+}
+
