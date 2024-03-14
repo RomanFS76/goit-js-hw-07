@@ -2,21 +2,68 @@
     border-radius: 8px;
     padding: 32px;
     width: 486px;
-    height: 104px;
+    min-height: 104px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #f6f6fe;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 #controls input{
-    line-height: 24px; 
     line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #2e2f42;
     border: 1px solid #808080;
     border-radius: 8px;
-    padding: 8px 72px;
+    padding: 0;
+    padding-left: 72px;
+    padding-right: 30px;
     width: 150px;
     height: 40px;
 }
 
+button[type="button"] {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: transparent;
+    font-family: "Montserrat", sans-serif;
+}
+
+button[data-create]:hover {
+    background: #6c8cff;
+}
+
+button[data-destroy]:hover {
+    background: #ff7070;
+}
+
 button[data-create] {
-    
+    background: #4e75ff;
+}
+
+button[data-destroy] {
+    background: #ff4e4e;
+}
+
+
+#boxes {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    min-height: 160px;
+    background: #f6f6fe;
 }
